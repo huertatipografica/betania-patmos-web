@@ -1,2 +1,1 @@
-# betania-patmos-web
-Betània Patmos has an austere morphology, free of ornaments, to facilitate recognition the ductus of the letters. It isn’t a display typeface, it’s a script typeface intended for early reading texts.
+Betània-Patmos is a free, open-source and interdiciplinary proyect. It is designed from and for the classroom, with simple forms that make it easier to recognize the ductus of the letters. It isn’t a display typeface, it’s a connected script, intended for teachers to create educational materials using basic tools such as LibreOffice, Notepad, or TextEdit.
