@@ -1,0 +1,326 @@
+:root {
+    font-size: 19px;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FDE8EC;
+    font-family: "Alegreya Sans", sans-serif;
+    line-height: 1.3;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+header {
+    display: block;
+    margin: 100px 0 20px 0;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main {
+    float: center;
+    width: 100%;
+}
+
+article {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    display: block;
+}
+
+.margins {
+    max-width: 1000px;
+    margin: auto;
+}
+
+p {
+    color: #014B7A;       /*ahora azul; antes gris #5f5f5f */
+    margin-bottom: 0.7rem;
+    width: 95%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 20px 0 20px;
+}
+
+h2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 2rem;
+    line-height: 0.8;
+    font-weight: 600;
+    margin-bottom: 0.7rem;
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+blockquote p {
+    font-size: 0.8rem;
+    font-family: "Roboto Mono", monospace;
+    padding: 20px;
+    background-color: white;
+    color: #5f5f5f;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bajada{
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.color1 {                        /* ahora rosa subido  */
+    background-color: #E86158;
+    width: 100%;
+}
+
+.color2 {
+    display: block;
+    padding: 20px 0 20px 0;
+    background-color: #FFF7D8;  /* amarillo claro*/
+    width: 100%;
+}
+
+.color3 {
+    background-color: #E3EAE3;  /*verde clarito */
+    width: 100%;
+}
+
+.color4{
+  background: white; 
+}
+
+.color5{
+  background: #FFE256; /* amarillo oscuro*/
+}
+
+.verde2 {
+background: rgb(62,168,152);
+background: linear-gradient(90deg, rgba(62,168,152,1) 49%, rgba(130,192,184,1) 51%);
+    width: 100%;
+}
+
+.verde3 {
+    background-color: #6EE7D6;
+    width: 100%;
+}
+
+.verdeazul {
+    background: rgb(102, 175, 160);
+    background: linear-gradient(90deg, rgba(102, 175, 160, 1) 49%, rgba(52, 69, 87, 1) 51%);
+}
+
+.blanco {
+    display: block;
+    background: white;
+    padding: 20px 0 20px 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+hr {
+    color: rgb(38, 208, 58);
+    border: 1px solid;
+}
+
+a {
+    color: #ff3f38;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: #ff3f38;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    display: block;
+    float: left;
+}
+
+/* A PARITR DE AQUI EL ESTILO DE LA BOTONERA */
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    display: flex;
+}
+
+
+.topnav .weg {
+    background: url(./img/ht.svg) 14px center no-repeat;
+    padding-left: 52px;
+    background-size: 28px 28px;
+}
+
+.topnav i {
+    margin-left: 0.5em;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    display: block;
+    color: black; /* color de las palabras */
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    background-color: #E86158;
+}
+
+.topnav div {
+    display: flex;
+}
+.topnav .icon {
+    display: none;
+}
+.flexcontainter {
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .topnav {
+        justify-content: space-between;
+    }
+    .topnav div.parts {
+        display: none;
+    }
+}
+
+/* Add an active class to highlight the current page */
+
+.active {
+    background-color: white; 
+    color: white;
+}
+
+/* When the screen is less than 600 pixels wide,
+ hide all links, except for the first one ("Home").
+ Show the link that contains should open and close the topnav (.icon) */
+
+/*
+* {
+    outline: solid 1px;
+} */
+
+footer {
+    width: 100%;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;  
+    padding-top: 80px;
+}
+
+footer .footer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer p{
+  font-size: 0.9rem;
+  padding: 10px 0 10px 0;
+}
+
+footer img{
+  height: 30px;
+  width: auto;
+  margin: 10px 0 20px 0;
+}
+
+
+@media screen and (min-width: 700px) {
+    .row:after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+    .row + .row {
+        margin-top: 3%;
+    }
+    [class^="col-"] {
+        float: left;
+        margin-right: 3%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    [class^="col-"]:last-child {
+        margin-right: 0%;
+    }
+    .col-1 {
+        width: 5.5833333333%;
+    }
+    .col-2 {
+        width: 14.1666666667%;
+    }
+    .col-3 {
+        width: 22.75%;
+    }
+    .col-4 {
+        width: 31.3333333333%;
+    }
+    .col-5 {
+        width: 39.9166666667%;
+    }
+    .col-6 {
+        width: 48.5%;
+    }
+    .col-7 {
+        width: 57.0833333333%;
+    }
+    .col-8 {
+        width: 65.6666666667%;
+    }
+    .col-9 {
+        width: 74.25%;
+    }
+    .col-10 {
+        width: 82.8333333333%;
+    }
+    .col-11 {
+        width: 91.4166666667%;
+    }
+    .col-12 {
+        width: 100%;
+    }
+}
