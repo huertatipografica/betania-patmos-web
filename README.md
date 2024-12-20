@@ -14,7 +14,11 @@ These design decisions were made by an interdisciplinary team, including both a 
 **Reference:**
 
 •Escolar 1 – currently in use
+
 • Rosalie Wagner – main reference — https://github.com/RosaWagner/Borel
+
 • Ana Ronchi
-• Scrivere a Mano nell’Era Digitalet
+
+• Scrivere a Mano nell’Era Digitalet — https://smed2015.it/formarsi-a-milano/
+
 • Primarium
