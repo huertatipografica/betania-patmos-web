@@ -111,8 +111,18 @@ blockquote p {
 }
 
 .color5{
-  background: #FFE256; /* amarillo oscuro*/
+  background: #FFE256;           /* amarillo oscuro*/
   padding: 20px 0 20px 0;
+}
+
+.color6{
+  background: #014B7A;           /* azul como el texto */
+  padding: 20px 0 20px 0;
+}
+
+.color7{
+    background: #FDE8EC;           /* rosa */
+    padding: 20px 0 20px 0;
 }
 
 .verde2 {
