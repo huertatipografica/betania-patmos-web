@@ -87,6 +87,7 @@ blockquote p {
 
 .color1 {                        /* ahora rosa subido  */
     background-color: #E86158;
+    padding: 20px 0 20px 0;
     width: 100%;
 }
 
@@ -98,16 +99,20 @@ blockquote p {
 }
 
 .color3 {
-    background-color: #E3EAE3;  /*verde clarito */
+    background-color: #B7DA9B;  /*verde mas fluo / verde clarito E3EAE3*/
+    padding: 20px 0 20px 0;
     width: 100%;
 }
 
 .color4{
   background: white; 
+  padding: 20px 0 20px 0;
+
 }
 
 .color5{
   background: #FFE256; /* amarillo oscuro*/
+  padding: 20px 0 20px 0;
 }
 
 .verde2 {
