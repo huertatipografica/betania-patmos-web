@@ -85,6 +85,8 @@ blockquote p {
     font-style: italic;
 }
 
+/* C O L O R E S  C O L O R E S  C O L O R E S  C O L O R E S */
+
 .color1 {                        /* ahora rosa subido  */
     background-color: #E86158;
     padding: 20px 0 20px 0;
@@ -189,7 +191,7 @@ a:active {
 /* Add a black background color to the top navigation */
 
 .topnav {
-    background-color: white;
+    background: white;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
