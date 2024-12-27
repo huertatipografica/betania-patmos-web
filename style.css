@@ -127,6 +127,11 @@ blockquote p {
     padding: 20px 0 20px 0;
 }
 
+.color8{                            /* celeste */
+    background: #A2DEF9;
+    padding: 20px 0 20px 0;
+}
+
 .verde2 {
 background: rgb(62,168,152);
 background: linear-gradient(90deg, rgba(62,168,152,1) 49%, rgba(130,192,184,1) 51%);
@@ -191,7 +196,7 @@ a:active {
 /* Add a black background color to the top navigation */
 
 .topnav {
-    background: white;
+    background-color: white;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
