@@ -51,6 +51,12 @@ p {
     padding: 0 20px 0 20px;
 }
 
+figcaption {
+    color: #014B7A;       /*azul*/
+    text-align: center;
+    font-style: italic;
+}
+
 h2 {
     display: block;
     margin-right: auto;
