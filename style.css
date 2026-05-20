@@ -281,13 +281,54 @@ a:active {
     display: flex;
 }
 
-@media screen and (max-width: 700px) {
+/* External-link icon inside nav items */
+.topnav a.external i.fa {
+    margin-left: 0.5em;
+    font-size: 0.85em;
+    opacity: 0.65;
+}
+
+/* Hamburger button — hidden on desktop */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 12px 16px;
+    line-height: 1;
+    color: black;
+}
+
+.menu-toggle:hover {
+    background-color: #FDE8EC;
+}
+
+@media screen and (max-width: 1024px) {
     .topnav {
         justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .menu-toggle {
+        display: block;
     }
 
     .topnav div.parts {
         display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        border-top: 1px solid #eee;
+    }
+
+    .topnav div.parts.parts-open {
+        display: flex;
+    }
+
+    .topnav .parts a {
+        padding: 12px 16px;
+        border-bottom: 1px solid #f0f0f0;
     }
 }
 
