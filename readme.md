@@ -1,24 +1,58 @@
-**Betània Patmos** is a free, open-source, and interdisciplinary project.
-It is designed by and for the classroom, with simple forms that make it easier to recognize the ductus of the letters. It isn't a display typeface; it's a connected script intended for teachers to create educational materials using basic tools such as LibreOffice, Notepad, or TextEdit.
+# Betània Patmos
 
-**The project focuses on two critical aspects:**
+**Betània Patmos** is a contemporary font model for handwriting training. It's released under the SIL Open Font Licence and is available for free download.
 
-1 • A minimalist design that avoids confusing the essential structure of the letters. Simple functionality, as this typeface is intended for teachers to create educational materials in virtual classrooms using tools like LibreOffice, or other readily available resources.
+BP has an austere morphology to facilitate the recognition of the ductus of the signs. It is not a display typeface; it is a tool for teaching literacy.
 
-2 • Key Features of the Typeface: Functionality: The users of this typeface are not designers but teachers who self-edit worksheets and materials for use in virtual classrooms. They primarily use applications like LibreOffice, TextEdit, or even Notepad, rather than design software. The OpenType development has been structured with contextual alternates to ensure compatibility with these tools, following the research of Rosalie Wagner.
+By Carolina Giovagnoli — Dec. 2024.
 
-3 • Design: Although it adheres to the teaching model used in Spain, the typeface has been updated to meet modern requirements, removing any decorative elements that could interfere with letter recognition. The result is a clean, minimalist font. The proportions follow Montessori guidelines, where ascenders and descenders are in a 1:1:1 ratio. The horizontal proportions are slightly condensed to improve text efficiency per line.
+## This project focuses on the aspects we consider critical in this typeface paradigm
 
-These design decisions were made by an interdisciplinary team, including both a pedagogical department and a group of teachers who are end-users.
+**1 • Austere design** to avoid ambiguities to recognizing the essential ductus of a sign's structure.
 
-**Reference:**
+**2 • Simplified functionality.** Designed so that teachers or people unfamiliar with design programs can self-edit educational worksheets or pedagogical material using tools like LibreOffice, Notepad, TextEdit, Microsoft Office, etc. The OpenType development is structured with contextual alternates, following the model proposed by Rosalie Wagner, which ensures compatibility with these tools.
 
-•Escolar 1 – currently in use
+**3 • Interdisciplinary team.** We reviewed the models and typefaces in use and redefined design and functional decisions. The inclusion of teachers, pedagogues, and the TIACC team (Technologies for Information and Learning in Educational Centers) introduces the perspective of the end user and the readers of the typeface.
 
-• Rosalie Wagner – main reference — https://github.com/RosaWagner/Borel
+**4 • Performance.** Its horizontal proportions are slightly condensed, improving word count per line/page.
 
-• Ana Ronchi
+## Short brief
 
-• Scrivere a Mano nell’Era Digitalet — https://smed2015.it/formarsi-a-milano/
+- **License:** Released under the SIL Open Font Licence, and is available for free download.
+- **Users:** Teachers, educators, pedagogues, and anyone involved in the process of teaching reading and writing.
+- **Readers:** Preschool and early elementary school students.
+- **Purpose:** Educational worksheets or self-editable pedagogical material.
+- **Guidelines:** Avoid decorative elements and loops to emphasize essential structure.
+- **Compatibility:** The typeface is compatible with office software and ideally should also be integrated into Google Drive.
+- **OpenType Features:** Adheres to Rosalie Wagner's documentation for contextual alternates (CALT).
 
-• Primarium
+This is not a display typeface; it is specifically designed for non-design professionals and classroom use.
+
+## Collaborative. Open Source. Free. Work in progress.
+
+Betània Patmos has been released under the SIL Open Font Licence, and is available for free download. It was both a request and a vision of the Betània Patmos school that it be developed in this framework to share achievements and address the questions it raises with other educational spaces. In this way, the results obtained are made available to enrich the project through collaborative work.
+
+Currently, Betània Patmos Font supports Catalan, Spanish, English, Guaraní, and German. Our goal is to expand the character set so that more languages can use this tool. We also aim to adapt specific morphological letterforms that are most familiar to different regions; for example, the letterforms `r`, `t`, and `z` have particular ductus in German.
+
+We invite teachers, educators, pedagogues, and anyone interested in developing digital tools for teaching reading and writing to use this font and share their experiences with us.
+
+## Download
+
+- [Download from HT Fonts](https://htfonts.com/en/fonts/betania-patmos)
+- [Download from Google Fonts](https://fonts.google.com/?query=betania)
+- [PDF Specimen](./img/BetaniaPatmosSpecimen.pdf)
+
+## Reference
+
+- Escolar 1 – currently in use
+- [Rosalie Wagner – main reference](https://github.com/RosaWagner/Borel)
+- Ana Ronchi
+- [Scrivere a Mano nell'Era Digitalet](https://smed2015.it/formarsi-a-milano/)
+- Primarium
+
+## Contact
+
+- [Contact us at HT Fonts](https://www.htfonts.com/en/contact)
+- [Github repository](https://github.com/huertatipografica/betania-patmos)
+- Instagram [@htfonts](https://www.instagram.com/htfonts/)
+- Facebook [@htfonts](https://www.facebook.com/htfonts)
