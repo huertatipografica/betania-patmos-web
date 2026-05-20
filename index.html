@@ -81,19 +81,28 @@ This project focuses on the aspects we consider critical in this typeface paradi
         <div class="top"></div>
         <nav>
             <div class="topnav" id="myTopnav">
-                <div class="brand">
-                    <a href="#top" class="weg"><img src="./img/htfonts-iso-b.png" alt="HT Fonts" class="ht-iso">BETÀNIA PATMOS</a>
+                <div class="topnav-row">
+                    <div class="brand">
+                        <a href="#top" class="weg"><img src="./img/htfonts-iso-b.png" alt="HT Fonts" class="ht-iso">BETÀNIA PATMOS</a>
+                    </div>
+
+                    <button class="menu-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
+
+                    <div class="parts">
+                        <a href="#setdecaracteres">Letters</a>
+                        <a href="#overview">Overview</a>
+                        <a href="#patterns">Patterns</a>
+                    </div>
                 </div>
 
-                <button class="menu-toggle" aria-label="Menu" aria-expanded="false">&#9776;</button>
-
-                <div class="parts">
-                    <a href="#setdecaracteres">Letters</a>
-                    <a href="#overview">Overview</a>
-                    <a href="#patterns">Patterns</a>
-                    <a href="https://github.com/huertatipografica/betania-patmos" target="_blank" rel="noopener" class="external">GitHub<i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    <a href="https://fonts.google.com/?query=betania" target="_blank" rel="noopener" class="external">Googlefonts Download<i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    <a href="./img/BetaniaPatmosSpecimen.pdf" target="_blank" rel="noopener" class="external">PDF Specimen<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <div class="subnav">
+                    <div class="subnav-inner">
+                        <a href="https://htfonts.com/en/fonts/betania-patmos" target="_blank" rel="noopener">Download from HT Fonts<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <a href="https://fonts.google.com/?query=betania" target="_blank" rel="noopener">Download from Google Fonts<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <a href="./img/BetaniaPatmosSpecimen.pdf" target="_blank" rel="noopener">PDF Specimen<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <a href="https://github.com/huertatipografica/betania-patmos" target="_blank" rel="noopener">Github repository<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <a href="https://htfonts.com/contact" target="_blank" rel="noopener">Contact us<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
 
@@ -707,18 +716,27 @@ This project focuses on the aspects we consider critical in this typeface paradi
         (function () {
             var btn = document.querySelector('.menu-toggle');
             var parts = document.querySelector('.topnav .parts');
+            var subnav = document.querySelector('.topnav .subnav');
+
+            function close() {
+                parts.classList.remove('parts-open');
+                subnav.classList.remove('subnav-open');
+                btn.setAttribute('aria-expanded', 'false');
+            }
 
             btn.addEventListener('click', function () {
                 var expanded = btn.getAttribute('aria-expanded') === 'true';
                 parts.classList.toggle('parts-open');
-                btn.setAttribute('aria-expanded', !expanded);
+                subnav.classList.toggle('subnav-open');
+                btn.setAttribute('aria-expanded', String(!expanded));
             });
 
-            parts.addEventListener('click', function (e) {
-                if (e.target.closest('a')) {
-                    parts.classList.remove('parts-open');
-                    btn.setAttribute('aria-expanded', 'false');
-                }
+            [parts, subnav].forEach(function (el) {
+                el.addEventListener('click', function (e) {
+                    if (e.target.closest('a')) {
+                        close();
+                    }
+                });
             });
         })();
     </script>
