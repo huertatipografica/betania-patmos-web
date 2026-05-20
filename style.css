@@ -3,6 +3,14 @@
     text-rendering: optimizeLegibility;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+article[id], [id] {
+    scroll-margin-top: 70px;
+}
+
 * {
     margin: 0px;
     padding: 0px;
